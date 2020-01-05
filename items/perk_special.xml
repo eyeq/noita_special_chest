@@ -1,0 +1,7 @@
+<Entity tags="teleportable_NOT,perk">
+
+  <LuaComponent 
+    script_item_picked_up="mods/special_chest/files/perk_pickup_special.lua" >
+  </LuaComponent>
+  
+</Entity>
