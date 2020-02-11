@@ -5,24 +5,23 @@ function init( x, y, w, h )
 	SetRandomSeed( x, y )
 	local randomtop = Random(1, 50)
 	
-	LoadPixelScene( "data/biome_impl/temple_wall_top.png", "", x, y-30, "data/biome_impl/temple_wall_top_background.png", true )
+	LoadPixelScene( "data/biome_impl/temple/wall_top.png", "", x, y-30, "data/biome_impl/temple/wall_top_background.png", true )
 	
 	if (randomtop == 5) then
-		LoadPixelScene( "data/biome_impl/temple_altar_top_water.png", "", x, y-40, "", true )
+		LoadPixelScene( "data/biome_impl/temple/altar_top_water.png", "", x, y-40, "", true )
 	elseif (randomtop == 8) then
-		LoadPixelScene( "data/biome_impl/temple_altar_top_blood.png", "", x, y-40, "", true )
+		LoadPixelScene( "data/biome_impl/temple/altar_top_blood.png", "", x, y-40, "", true )
 	elseif (randomtop == 11) then
-		LoadPixelScene( "data/biome_impl/temple_altar_top_oil.png", "", x, y-40, "", true )
+		LoadPixelScene( "data/biome_impl/temple/altar_top_oil.png", "", x, y-40, "", true )
 	elseif (randomtop == 13) then
-		LoadPixelScene( "data/biome_impl/temple_altar_top_radioactive.png", "", x, y-40, "", true )
+		LoadPixelScene( "data/biome_impl/temple/altar_top_radioactive.png", "", x, y-40, "", true )
 	elseif (randomtop == 15) then
-		LoadPixelScene( "data/biome_impl/temple_altar_top_lava.png", "", x, y-40, "", true )
+		LoadPixelScene( "data/biome_impl/temple/altar_top_lava.png", "", x, y-40, "", true )
 	else
-		LoadPixelScene( "data/biome_impl/temple_altar_top.png", "", x, y-40, "", true )
+		LoadPixelScene( "data/biome_impl/temple/altar_top.png", "", x, y-40, "", true )
 	end
 	
-	LoadPixelScene( "data/biome_impl/temple_altar.png", "data/biome_impl/temple_altar_visual.png", x, y-40+300, "data/biome_impl/temple_altar_background.png", true )
-
+	LoadPixelScene( "data/biome_impl/temple/altar.png", "data/biome_impl/temple/altar_visual.png", x, y-40+300, "data/biome_impl/temple/altar_background.png", true )
 
 
 	-- modified start --
